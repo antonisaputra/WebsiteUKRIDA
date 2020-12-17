@@ -1,0 +1,438 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font: 15px/1.5;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  .button_1{
+    height:38px;
+    background:#35424a;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+  }
+
+header{
+    background:url(../img/background.jpg);
+    color:#3b3a3a;
+    padding-top:20px;
+    font-family: 'Acme', sans-serif;
+    min-height:90px;
+    /* border-bottom:#ffbd07 5px solid; */
+}
+
+header .logo{
+    width: 10%;
+    margin-left: 60px;
+    float: left;
+    /* background-color: white; */
+}
+
+header .branding{
+    width: 82%;
+    float: right;
+}
+
+header .branding h1{
+    font-size: 40px;
+    padding-top: 18px;
+}
+
+nav li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+nav{
+    width: 97%;
+    height: 30px;
+    font-family: 'Acme', sans-serif;
+    padding :20px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-bottom: #ffbd07 5px solid;
+}
+
+nav a{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #ffbd07;
+    font-size: 19px;
+}
+
+.terbuka{
+    color: #ffbd07;
+    font-size: 19px;
+}
+
+#showcase{
+    width: 100%;
+    height:380px;
+    background: top center;
+    text-align:center;
+    color:#333030;
+}
+
+#showcase .container{
+    width: 100%;
+    height: 100%;
+    background:url('../img/pajangan.jpg');
+    background-position: center;
+    font-family: 'Russo One', sans-serif;
+    background-size: 100%;
+}
+  
+#showcase h1{
+    margin-top:50px;
+    font-size:55px;
+    padding-top: 200px;
+    color:#ffbd07;
+    margin-bottom:10px;
+}
+  
+#showcase p{
+    color:black;
+    font-weight: bold;
+    font-size:25px;
+}
+
+header nav{
+    float: left;
+}
+
+#newsletter{
+    height: 30px;
+    padding:20px;
+    color:#ffffff;
+    background:#ffbd07;
+    margin-top: 75px;
+  }
+  
+  #newsletter h1{
+    float:left;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: 'Acme', sans-serif;
+    color: #3b3a3a;
+  }
+  
+  #newsletter form {
+    float:right;
+  }
+  
+  #newsletter input[type="search"]{
+    padding:4px;
+    background-color:white;
+    height:37px;
+    outline: none;
+    width:250px;
+    font-weight: bold;
+    border: 0;
+
+  }
+
+  #kabarberita{
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 50%;
+    float: left;
+  }
+  
+  .berita h3{
+      font-size: 20px;
+  }
+
+  .berita{
+      margin-top: 20px;
+  }
+
+  .berita img, .berita h3{
+      margin-bottom: 20px;
+  }
+
+
+  #kabarberita a{
+    text-transform: capitalize;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  #kabarberita a:hover{
+    color: #ffffff;
+    background-color: gray;
+    border: gray 2px solid;
+    padding: 2px;
+    font-size: 22px;
+  }
+
+  h3{
+      font-size: 30px;
+  }
+
+  #papaninformasi{
+        margin-top: 20px;
+        width: 25%;
+        font-size: 25px;
+        float: right;
+        border :#ffbd07 3px solid;
+  }
+
+  #papaninformasi .informasi{
+        padding: 10px ;
+        background-color: #ffbd07;
+        height: 50px;
+        width: 95%;
+  }
+
+  #papaninformasi .informasi img{
+        width: 15%;
+        float: left;
+  }
+
+  #papaninformasi .informasi p{
+        font-size: 40px;
+        width: 70%;
+        color: #ffffff;
+        float: right;
+  }
+
+  #papaninformasi a, #papaninformasi .informasi p{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding-right: 40px;
+        text-transform: capitalize;
+  }
+  
+  #papaninformasi a:hover{
+      color: #ffbd07;
+  }
+
+  #papaninformasi .informasilink{
+      padding: 10px 0 10px 10px ;
+  }
+
+  #formulir form, #formulir h2{
+      font-size: 20px;
+      margin-top: 25px;
+      padding-left: 40px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+  }
+
+  #formulir h2{
+      font-size: 50px
+  }
+
+  #formulir{
+      float: left;
+  }
+
+  #formulir form input{
+    font-size: 20px;
+    outline: none;
+    width: 500px;
+    color: black;
+    padding: 5px 0px;
+    border: #ffbd07 2px solid;
+    padding-left: 10px;
+    margin-top :10px;
+    margin-bottom: 10px;
+
+}
+
+#formulir form select{
+    font-size: 20px;
+    width: 515px;
+    outline: none;
+    padding: 5px 0px;
+    border: #ffbd07 2px solid;
+    padding-left: 10px;
+    margin-top :10px;
+    margin-bottom: 10px;
+
+}
+
+#formulir form button{
+    font-size: 20px;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: #35424a;
+    margin-top :10px;
+    margin-bottom: 10px;
+
+}
+
+#formulir form button:hover{
+    background-color: #ffbd07;
+}
+
+#Profil{
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#Profil h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#Profil p {
+    font-size: 17px;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+    text-indent: 60px;
+    padding: 10px 0;
+}
+
+#Profil .misi {
+    font-size: 17px;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+}
+
+#Profil img{
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+#AlamatUniversitas{
+    width: 98;
+    background-color: #35424a;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+#AlamatUniversitas .kampus1, .kampus2,.kampus3{
+    padding: 20px;
+    width: 30%;
+    margin-left: 25px;
+}
+#AlamatUniversitas h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#AlamatUniversitas p{
+    color: #ffffff;
+}
+
+#prodi{
+    margin: 100px;
+}
+#prodi h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+#prodi h3{
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+#prodi p{
+    font-size: 20px;
+    padding: 15px 50px;
+}
+
+#Profil ol li{
+    font-size: 23px;
+    line-height: 25px;
+}
+
+#Profil ol{
+    margin-left: 20px;
+}
+
+#Profil img{
+    border-radius: 20%;
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+footer{
+      width: 97%;
+      height: 60px;
+      background-color: #3b3a3a;
+      padding:20px;
+      margin-top:20px;
+      color:#ffffff;
+      text-align: center;
+  }
+
+footer .icon a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+footer p{
+    margin-top: 20px;
+    font-size: 18px;
+} 
+
+  
+
